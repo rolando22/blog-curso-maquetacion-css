@@ -6,26 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Blog</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fonts/flaticon.css">
 </head>
 <body>
-    <header>
-        <section>
-            <div>
-                <a href="/">Facebook</a>
-                <a href="/">Twitter</a>
-                <a href="/">Instagram</a>
-                <a href="/">LinkedIn</a>
-                <a href="/">YouTube</a>
+    <header class="header">
+        <section class="header__icons-container">
+            <div class="header__icons">
+                <a href="/">
+                    <span class="flaticon-001-facebook header__icon"></span>
+                </a>
+                <a href="/">
+                    <span class="flaticon-002-twitter header__icon"></span>
+                </a>
+                <a href="/">
+                    <span class="flaticon-011-instagram header__icon"></span>
+                </a>
+                <a href="/">
+                    <span class="flaticon-010-linkedin header__icon"></span>
+                </a>
+                <a href="/">
+                    <span class="flaticon-008-youtube header__icon"></span>
+                </a>
             </div>
         </section>
-        <nav>
-            <section>
-                <a href="/">Logo</a>
-            </section>
-            <section>
-                <a href="./views/perfil.html">Sobre mí</a>
+        <nav class="header__nav">
+            <figure class="nav__logo-container">
+                <a class="nav__logo--link" href="/">
+                    <img
+                        class="nav__logo"
+                        src="./assets/img/Logo-negro.png"
+                        alt="Logo del Blog"
+                    >
+                </a>
+            </figure>
+            <section class="nav__profile-container">
+                <a class="nav__profile-link" href="./views/profile.html">Sobre mí</a>
             </section>
         </nav>
     </header>
+    <main class="main">
+        <div class="main__container">
+            <h1>Conoce las novedades y noticias del Mundo Tech</h1>
+            <a href="">Entra ya!</a>
+        </div>
+    </main>
 </body>
 </html>
