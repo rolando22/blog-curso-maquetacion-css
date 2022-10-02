@@ -20,14 +20,13 @@ a {
 
 .header {
     width: 100%;
-    height: 140px;
+    height: 20vh;
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 7vh 13vh;
 }
 
 .header .header__icons-container {
     width: 100%;
-    height: 70%;
     display: grid;
     justify-items: end;
     align-items: center;
@@ -46,7 +45,9 @@ a {
 
 .header__nav {
     display: grid;
+    width: 90%;
     grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
     align-items: center;
 }
 
@@ -55,7 +56,6 @@ a {
 }
 
 .header__nav .nav__profile-container {
-    margin: 0 45px;
     justify-self: end;
 }
 
@@ -65,5 +65,40 @@ a {
 }
 
 .main {
-    background-image: url(../assets/img/main-news-img.png);
+    width: 100vw;
+    height: 80vh;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    background-image: url(../assets/img/Cover.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main .main__container {
+    display: grid;
+    width: 50%;
+    height: 100%;
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: end;
+}
+
+.main .main__title {
+    text-align: center;
+    color: #ffffff;
+}
+
+.main .main__link {
+    width: 100px;
+    height: 35px;
+    padding: 5px 0;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    background-color: #47cfac;
+    text-align: center;
+    border: 0.5px solid #ffffff;
+    color: #000000;
 }
