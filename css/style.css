@@ -66,7 +66,7 @@ a {
     border-bottom: 1px solid black;
 }
 
-.main {
+.main-index {
     width: 100vw;
     height: 80vh;
     display: grid;
@@ -79,7 +79,7 @@ a {
     background-repeat: no-repeat;
 }
 
-.main .main__container {
+.main-index .main-index__container {
     display: grid;
     width: 80%;
     height: 100%;
@@ -88,13 +88,13 @@ a {
     align-items: end;
 }
 
-.main .main__title {
+.main-index .main-index__title {
     text-align: center;
     letter-spacing: 10px;
     color: #ffffff;
 }
 
-.main .main__link {
+.main-index .main-index__link {
     width: 110px;
     height: 40px;
     padding: 7px 0;
