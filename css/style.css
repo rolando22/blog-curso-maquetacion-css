@@ -6,7 +6,6 @@
 
 html {
     font-size: 62.5%;
-    font-family: monospace;
 }
 
 body {
@@ -89,6 +88,7 @@ a {
 }
 
 .main .main__title {
+    font-family: 'Roboto Mono', monospace;;
     text-align: center;
     letter-spacing: 10px;
     color: #ffffff;
