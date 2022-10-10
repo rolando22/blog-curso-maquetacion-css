@@ -45,6 +45,10 @@ a {
     color: #ffffff;
 }
 
+.header .header__icon:hover {
+    color: #000000;
+}
+
 .header__nav {
     display: grid;
     width: 90%;
@@ -61,10 +65,15 @@ a {
     justify-self: end;
 }
 
-.header__nav .nav__profile-link{
+.header__nav .nav__profile-link {
     font-weight: bold;
     color: black;
     border-bottom: 1px solid black;
+}
+
+.header__nav .nav__profile-link:hover {
+    color: #47cfac;
+    border-bottom-color: #47cfac;
 }
 
 .main-index {
@@ -104,6 +113,11 @@ a {
     background-color: #47cfac;
     text-align: center;
     color: #000000;
+}
+
+.main-index .main-index__link:hover {
+    color: #ffffff;
+    border: 1px solid #ffffff;
 }
 
 .main-blogs {
