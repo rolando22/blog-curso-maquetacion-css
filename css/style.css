@@ -108,6 +108,7 @@ a {
 
 .main-blogs {
     width: 100%;
+    margin-bottom: 80px;
 }
 
 .main-blogs .main-blogs__info {
@@ -186,7 +187,7 @@ a {
     width: 100%;
     grid-column: 1 / 4;
     text-align: center;
-    line-height: 60px;
+    line-height: 6rem;
     border-bottom: 1px solid #cdd2da;
 }
 
@@ -219,11 +220,102 @@ a {
     -webkit-box-orient: vertical;
 }
 
+.main-blog {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}
+
+.main-blog .main-blog__img-container {
+    max-width: 980px;
+    height: 100%;
+    margin-bottom: 40px;
+    display: grid;
+    justify-items: center;
+}
+
+.main-blog__img-container .main-blog__img {
+    width: 95%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.main-blog .main_blog__body {
+    max-width: 980px;
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+}
+
+.main-blog .main-blog__subtitle {
+    width: 85%;
+    line-height: 6rem;
+    border-bottom: 1px solid #cdd2da;
+}
+
+.main_blog__body .main-blog__container {
+    width: 85%;
+    display: grid;
+    gap: 20px;
+}
+
+.main-blog__container .main-blog__title {
+    font-size: 3.5rem;
+}
+
+.main-blog__contact-container {
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    background-color: #e6e9ed;
+}
+
+.main-blog__contact-container .main-blog__contact,
+.main-blog__contact-container .main-blog__write {
+    max-width: 480px;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
+    place-content: center;
+    gap: 10px;
+}
+
+.main-blog__contact .contact__img-container,
+.main-blog__write .write__img-container  {
+    width: 100px;
+    height: 100px;
+    grid-row: 1 / 3;
+}
+
+.contact__img-container .contact__img,
+.write__img-container .write__img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-blog__contact .contact__info,
+.main-blog__write .write__info {
+    align-self: end;
+}
+
+.title--underlined {
+    border-bottom: 1px solid #000000;
+}
+
+.title--underlined:hover {
+    color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
 .footer {
     width: 100%;
     height: 80px;
     display: grid;
-    margin-top: 80px;
     background-color: #000000;
     border-top: 25px solid #47cfac;
 }
