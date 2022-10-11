@@ -31,6 +31,10 @@
     grid-template-columns: 1fr;
 }
 
+.main-blogs__container .container__blog {
+    width: 100%;
+}
+
 .main-blogs__container .container__title {
     grid-column: 1 / 1;
 }
@@ -61,4 +65,20 @@
 .projects-container-grid {
     width: 90%;
     grid-template-columns: 1fr;
+}
+
+@media (max-width: 320px) {
+    .header .header__icons {
+        width: 320px;
+        margin-right: 0;
+        justify-content: start;
+    }
+
+    .header__nav .nav__profile-container {
+        font-size: 1.4rem;
+    }
+
+    .main-index .main-index__title {
+        font-size: 2.6rem;
+    }
 }
