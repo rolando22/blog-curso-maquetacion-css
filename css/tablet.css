@@ -1,0 +1,11 @@
+.main-index {
+    grid-template-rows: auto;
+}
+
+.main-index .main-index__container {
+    align-items: center;
+}
+
+.main-index .main-index__link {
+    align-self: start;
+}
